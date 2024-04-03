@@ -31,6 +31,9 @@ public class Colores extends JFrame {
                     case "Azul":
                         colorPanel.setBackground(Color.BLUE);
                         break;
+                    default:
+                        colorPanel.setBackground(Color.WHITE);
+                        break;
                 }
             }
         });
